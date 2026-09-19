@@ -1,0 +1,27 @@
+# Virtual environment
+venv/
+env/
+.venv/
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+
+# Project-generated data (personal telemetry, not source code)
+telemetry.db
+telemetry_old.db
+snapshots/
+
+# Generated charts (regenerate anytime with analyze_telemetry.py)
+latency_profile.png
+lighting_benchmark.png
+
+# OS/editor cruft
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Antigravity / IDE agent state (if applicable)
+.antigravity/
